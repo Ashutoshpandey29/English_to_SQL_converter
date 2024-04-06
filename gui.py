@@ -13,10 +13,10 @@ def submit_data():
 def execute_query(query):
     # Replace these credentials with your MySQL database credentials
     db = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Yash@2914",
-        database="dbms_project",
+        host="",
+        user="",
+        password="",
+        database="",
     )
 
     cursor = db.cursor()
